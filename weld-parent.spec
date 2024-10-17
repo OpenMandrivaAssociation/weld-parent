@@ -5,7 +5,7 @@ Release:          1.1%{?dist}
 Summary:          Parent POM for Weld
 
 License:          ASL 2.0
-URL:              http://seamframework.org/Weld
+URL:              https://seamframework.org/Weld
 
 Source0:          http://repo1.maven.org/maven2/org/jboss/weld/%{name}/%{version}/%{name}-%{version}.pom
 Source1:          http://www.apache.org/licenses/LICENSE-2.0.txt
