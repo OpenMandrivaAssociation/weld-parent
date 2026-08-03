@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:             weld-parent
-Version:          26
-Release:          1.1%{?dist}
+Version:          46
+Release:          1%{?dist}
 Summary:          Parent POM for Weld
 
 License:          ASL 2.0
