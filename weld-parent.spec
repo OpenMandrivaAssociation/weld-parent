@@ -9,6 +9,9 @@ URL:              https://github.com/weld/parent
 Source0:          https://github.com/weld/parent/archive/refs/tags/%{version}.tar.gz
 
 BuildArch:        noarch
+# Literal, so the first rpmbuild -bs records them before sysjar is installed.
+BuildRequires:	maven
+BuildRequires:	java-current-devel
 BuildSystem:	maven
 BuildOption:	validate
 
